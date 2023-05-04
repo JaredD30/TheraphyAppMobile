@@ -12,5 +12,6 @@ data class Physiotherapist(
     val email: String,
     val rating: String,
     val consultationsQuantity: String,
-    val photoUrl: String
+    val photoUrl: String,
+    val userId: String
 )
