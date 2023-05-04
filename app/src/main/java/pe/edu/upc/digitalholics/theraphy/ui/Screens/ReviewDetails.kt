@@ -1,4 +1,4 @@
-package pe.edu.upc.digitalholics.theraphy.ui.theme.rewiewDetails
+package pe.edu.upc.digitalholics.theraphy.ui.Screens
 
 
 import androidx.compose.foundation.Image
