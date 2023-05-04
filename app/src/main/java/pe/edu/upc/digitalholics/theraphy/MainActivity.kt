@@ -11,7 +11,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import pe.edu.upc.digitalholics.theraphy.ui.theme.TheraphyTheme
-import pe.edu.upc.digitalholics.theraphy.ui.theme.rewiewDetails.PhysiotherapistProfile
+import pe.edu.upc.digitalholics.theraphy.ui.Screens.PhysiotherapistProfile
+import pe.edu.upc.theraphytreatmentscreens20.ui.screens.Treatments
 
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PhysiotherapistProfile()
+                    Treatments()
                 }
             }
         }
